@@ -1,0 +1,12 @@
+C:\Programas\CRUD_PLayer\bin\Debug\DbJogador.mdf
+C:\Programas\CRUD_PLayer\bin\Debug\DbJogador_log.ldf
+C:\Programas\CRUD_PLayer\bin\Debug\CRUD_PLayer.exe.config
+C:\Programas\CRUD_PLayer\bin\Debug\CRUD_PLayer.exe
+C:\Programas\CRUD_PLayer\bin\Debug\CRUD_PLayer.pdb
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.csproj.AssemblyReference.cache
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.FormPrincipal.resources
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.Properties.Resources.resources
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.csproj.GenerateResource.cache
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.csproj.CoreCompileInputs.cache
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.exe
+C:\Programas\CRUD_PLayer\obj\Debug\CRUD_PLayer.pdb

@@ -36,5 +36,47 @@ namespace CRUD_PLayer
             }
             return li;
         }
+
+        public void Inserir(string nome, string cidade, string email, string celular)
+        {
+            string sql = "INSERT INTO Jogador(nome,cidade,email,celular) VALUES ('"+nome+"','"+cidade+"','"+email+"','"+celular+"')";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public void Localiza(int Id)
+        {
+            string sql = "SELECT * FROM Jogador WHERE Id = '"+Id+"'";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                nome = dr["nome"].ToString();
+                cidade = dr["cidade"].ToString();
+                email = dr["email"].ToString();
+                celular = dr["celular"].ToString();
+            }
+        }
+
+        public void Atualizar(int Id, string nome, string cidade, string email, string celular)
+        {
+            string sql = "UPDATE Jogador SET nome='"+nome+"',cidade='"+cidade+"',email='"+email+"',celular='"+celular+"' WHERE Id='"+Id+"'";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public void Exclui(int Id)
+        {
+            string sql = "DELETE FROM Jogador WHERE Id='"+Id+"'";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
     }
 }
